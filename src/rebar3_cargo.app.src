@@ -1,12 +1,13 @@
 {application, rebar3_cargo, [
     {description, "A rebar plugin to build Rust crates"},
-    {vsn, "0.1.0"},
+    {vsn, "0.1.1-rc.1"},
     {registered, []},
     {applications, [
         kernel,
         stdlib,
         cargo
     ]},
+    {pkg_name, "my_rebar3_cargo"},
     {env, []},
     {modules, []},
     {licenses, ["Apache-2.0", "MIT"]},
@@ -14,6 +15,10 @@
         {
             "Github",
             "https://github.com/rusterlium/rebar3_cargo"
+        },
+        {
+            "My fork",
+            "https://github.com/belltoy/rebar3_cargo"
         }
     ]}
 ]}.
